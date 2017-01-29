@@ -45,19 +45,19 @@ def convert(snippet, phrase):
 
         # fake class names
 
-        for word in class_names:
-            result = result.replace("%%%", word, 1)
+    for word in class_names:
+        result = result.replace("%%%", word, 1)
 
-            # fake other names
+        # fake other names
 
-        for word in other_names:
-            result = result.replace("***", word, 1)
+    for word in other_names:
+        result = result.replace("***", word, 1)
 
-        # fake parameter lists
-        for word in param_names:
-            result = result.replace("@@@", word, 1)
+    # fake parameter lists
+    for word in param_names:
+        result = result.replace("@@@", word, 1)
 
-        results.append(result)
+    results.append(result)
     return results
 
 # keep goin until they hit CTRL-D
