@@ -1,0 +1,150 @@
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x10b5ada90>, <nose.plugins.logcapture.LogCapture object at 0x10b5a3050>, <nose.plugins.deprecated.Deprecated object at 0x10b69c7d0>, <nose.plugins.skip.Skip object at 0x10b775990>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug='nose,nose.importer', debugLog='nose_debug', env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[<_sre.SRE_Pattern object at 0x10ad89830>, <_sre.SRE_Pattern object at 0x10adc1ab0>, <_sre.SRE_Pattern object at 0x10acac9f0>], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<open file '<stderr>', mode 'w' at 0x10ac6a1e0>, loggingConfig=None, options=<Values at 0x10b7866c8: {'xunit_file': 'nosetests.xml', 'enable_plugin_allmodules': None, 'multiprocess_restartworker': False, 'loggingConfig': None, 'doctestExtension': None, 'doctest_tests': None, 'enable_plugin_xunit': None, 'logcapture_clear': False, 'stopOnError': False, 'enable_plugin_id': None, 'testNames': None, 'doctestOptions': None, 'exclude': [], 'byteCompile': True, 'ignoreFiles': [], 'logcapture': True, 'addPaths': True, 'capture': True, 'xunit_testsuite_name': 'nosetests', 'logcapture_level': 'NOTSET', 'cover_xml': None, 'py3where': None, 'noSkip': False, 'enable_plugin_isolation': None, 'logcapture_filters': None, 'collect_only': None, 'failed': False, 'version': False, 'eval_attr': None, 'include': [], 'enable_plugin_profile': None, 'debugErrors': False, 'files': None, 'cover_tests': None, 'multiprocess_timeout': 10, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'traverseNamespace': False, 'firstPackageWins': False, 'cover_html_dir': 'cover', 'cover_branches': None, 'debugBoth': False, 'noDeprecated': False, 'cover_xml_file': 'coverage.xml', 'showPlugins': False, 'cover_erase': None, 'multiprocess_workers': 0, 'testIdFile': '.noseids', 'enable_plugin_coverage': None, 'attr': None, 'profile_sort': 'cumulative', 'doctestFixtures': None, 'logcapture_datefmt': None, 'cover_packages': None, 'verbosity': 1, 'enable_plugin_doctest': None, 'profile_stats_file': None, 'cover_inclusive': None, 'includeExe': False, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'debugFailures': False, 'detailedErrors': None, 'debugLog': 'nose_debug', 'doctest_result_var': None, 'cover_html': None, 'debug': 'nose,nose.importer', 'cover_min_percentage': None, 'where': None, 'profile_restrict': None}>, parser=<optparse.OptionParser instance at 0x10b66f248>, parserClass=<class optparse.OptionParser at 0x10af0c870>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x10b674fd0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<open file '<stderr>', mode 'w' at 0x10ac6a1e0>, testMatch=<_sre.SRE_Pattern object at 0x10b6ea530>, testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=[], traverseNamespace=False, verbosity=1, where=(), worker=False, workingDir='/Users/Bazo/Documents/pythonHardWay/skeleton')
+nose.importer: DEBUG: Add path /Users/Bazo/Documents/pythonHardWay/skeleton
+nose.importer: DEBUG: insert /Users/Bazo/Documents/pythonHardWay/skeleton into sys.path
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x10b775c90>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['.']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from . (None)
+nose.selector: DEBUG: Test name . resolved to file ., module None, call None
+nose.selector: DEBUG: Final resolution of test name .: file /Users/Bazo/Documents/pythonHardWay/skeleton module None call None
+nose.suite: DEBUG: Create suite for [<nose.suite.LazySuite tests=generator (4487471376)>]
+nose.suite: DEBUG: tests [<nose.suite.LazySuite tests=generator (4487471376)>] context None
+nose.suite: DEBUG: wrap [<nose.suite.LazySuite tests=generator (4487471376)>]
+nose.suite: DEBUG: wrapping <nose.suite.LazySuite tests=generator (4487471376)>
+nose.suite: DEBUG: Context suite for [<nose.suite.LazySuite tests=generator (4487471376)>] (None) (4487471184)
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: suite 4487471184 (<nose.suite.ContextSuite context=None>) run called, tests: <generator object _get_wrapped_tests at 0x10b77bf00>
+nose.suite: DEBUG: suite 4487471184 setUp called, tests: <generator object _get_wrapped_tests at 0x10b79a140>
+nose.suite: DEBUG: tests in 4487471184?
+nose.suite: DEBUG: precache is [<nose.suite.LazySuite tests=generator (4487471376)>]
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /Users/Bazo/Documents/pythonHardWay/skeleton
+nose.importer: DEBUG: Add path /Users/Bazo/Documents/pythonHardWay/skeleton
+nose.selector: DEBUG: wantDirectory /Users/Bazo/Documents/pythonHardWay/skeleton/Name? True
+nose.loader: DEBUG: load from /Users/Bazo/Documents/pythonHardWay/skeleton/Name (None)
+nose.selector: DEBUG: Test name /Users/Bazo/Documents/pythonHardWay/skeleton/Name resolved to file /Users/Bazo/Documents/pythonHardWay/skeleton/Name, module None, call None
+nose.selector: DEBUG: Final resolution of test name /Users/Bazo/Documents/pythonHardWay/skeleton/Name: file /Users/Bazo/Documents/pythonHardWay/skeleton/Name module Name call None
+nose.importer: DEBUG: Import Name from /Users/Bazo/Documents/pythonHardWay/skeleton
+nose.importer: DEBUG: Add path /Users/Bazo/Documents/pythonHardWay/skeleton
+nose.importer: DEBUG: find module part Name (Name) in ['/Users/Bazo/Documents/pythonHardWay/skeleton']
+nose.loader: DEBUG: Load from module <module 'Name' from '/Users/Bazo/Documents/pythonHardWay/skeleton/Name/__init__.pyc'>
+nose.selector: DEBUG: wantModule <module 'Name' from '/Users/Bazo/Documents/pythonHardWay/skeleton/Name/__init__.pyc'>? False
+nose.loader: DEBUG: Load tests from module path /Users/Bazo/Documents/pythonHardWay/skeleton/Name?
+nose.loader: DEBUG: path: /Users/Bazo/Documents/pythonHardWay/skeleton/Name os.path.realpath(/Users/Bazo/Documents/pythonHardWay/skeleton/Name): /Users/Bazo/Documents/pythonHardWay/skeleton/Name
+nose.loader: DEBUG: load from dir /Users/Bazo/Documents/pythonHardWay/skeleton/Name
+nose.importer: DEBUG: Add path /Users/Bazo/Documents/pythonHardWay/skeleton/Name
+nose.importer: DEBUG: Add path /Users/Bazo/Documents/pythonHardWay/skeleton
+nose.selector: DEBUG: __init__.py matches ignoreFiles pattern; skipped
+nose.selector: DEBUG: __init__.pyc matches ignoreFiles pattern; skipped
+nose.suite: DEBUG: Create suite for <nose.suite.ContextList object at 0x10b796750>
+nose.suite: DEBUG: tests <nose.suite.ContextList object at 0x10b796750> context <module 'Name' from '/Users/Bazo/Documents/pythonHardWay/skeleton/Name/__init__.pyc'>
+nose.suite: DEBUG: Context suite for <nose.suite.ContextList object at 0x10b796750> (<module 'Name' from '/Users/Bazo/Documents/pythonHardWay/skeleton/Name/__init__.pyc'>) (4487473040)
+nose.suite: DEBUG: suite <nose.suite.ContextSuite context=Name> has context Name
+nose.suite: DEBUG: get ancestry <module 'Name' from '/Users/Bazo/Documents/pythonHardWay/skeleton/Name/__init__.pyc'>
+nose.suite: DEBUG: suite 4487473040 (<nose.suite.ContextSuite context=Name>) run called, tests: <generator object _get_wrapped_tests at 0x10b79a280>
+nose.suite: DEBUG: suite 4487473040 setUp called, tests: <generator object _get_wrapped_tests at 0x10b79a280>
+nose.suite: DEBUG: tests in 4487473040?
+nose.suite: DEBUG: suite 4487473040 has no tests
+nose.suite: DEBUG: precache is []
+nose.suite: DEBUG: context teardown
+nose.suite: DEBUG: No reason to teardown (was_setup? False was_torndown? False)
+nose.selector: DEBUG: wantDirectory /Users/Bazo/Documents/pythonHardWay/skeleton/bin? False
+nose.selector: DEBUG: wantDirectory /Users/Bazo/Documents/pythonHardWay/skeleton/docs? False
+nose.selector: DEBUG: wantFile /Users/Bazo/Documents/pythonHardWay/skeleton/nose_debug? False
+nose.selector: DEBUG: setup.py matches ignoreFiles pattern; skipped
+nose.selector: DEBUG: wantDirectory /Users/Bazo/Documents/pythonHardWay/skeleton/tests? True
+nose.loader: DEBUG: load from /Users/Bazo/Documents/pythonHardWay/skeleton/tests (None)
+nose.selector: DEBUG: Test name /Users/Bazo/Documents/pythonHardWay/skeleton/tests resolved to file /Users/Bazo/Documents/pythonHardWay/skeleton/tests, module None, call None
+nose.selector: DEBUG: Final resolution of test name /Users/Bazo/Documents/pythonHardWay/skeleton/tests: file /Users/Bazo/Documents/pythonHardWay/skeleton/tests module tests call None
+nose.importer: DEBUG: Import tests from /Users/Bazo/Documents/pythonHardWay/skeleton
+nose.importer: DEBUG: Add path /Users/Bazo/Documents/pythonHardWay/skeleton
+nose.importer: DEBUG: find module part tests (tests) in ['/Users/Bazo/Documents/pythonHardWay/skeleton']
+nose.loader: DEBUG: Load from module <module 'tests' from '/Users/Bazo/Documents/pythonHardWay/skeleton/tests/__init__.pyc'>
+nose.selector: DEBUG: wantModule <module 'tests' from '/Users/Bazo/Documents/pythonHardWay/skeleton/tests/__init__.pyc'>? True
+nose.loader: DEBUG: Load tests from module path /Users/Bazo/Documents/pythonHardWay/skeleton/tests?
+nose.loader: DEBUG: path: /Users/Bazo/Documents/pythonHardWay/skeleton/tests os.path.realpath(/Users/Bazo/Documents/pythonHardWay/skeleton/tests): /Users/Bazo/Documents/pythonHardWay/skeleton/tests
+nose.loader: DEBUG: load from dir /Users/Bazo/Documents/pythonHardWay/skeleton/tests
+nose.importer: DEBUG: Add path /Users/Bazo/Documents/pythonHardWay/skeleton/tests
+nose.importer: DEBUG: Add path /Users/Bazo/Documents/pythonHardWay/skeleton
+nose.selector: DEBUG: __init__.py matches ignoreFiles pattern; skipped
+nose.selector: DEBUG: __init__.pyc matches ignoreFiles pattern; skipped
+nose.selector: DEBUG: wantFile /Users/Bazo/Documents/pythonHardWay/skeleton/tests/NAME_tests.py? True
+nose.loader: DEBUG: load from /Users/Bazo/Documents/pythonHardWay/skeleton/tests/NAME_tests.py (None)
+nose.selector: DEBUG: Test name /Users/Bazo/Documents/pythonHardWay/skeleton/tests/NAME_tests.py resolved to file /Users/Bazo/Documents/pythonHardWay/skeleton/tests/NAME_tests.py, module None, call None
+nose.selector: DEBUG: Final resolution of test name /Users/Bazo/Documents/pythonHardWay/skeleton/tests/NAME_tests.py: file /Users/Bazo/Documents/pythonHardWay/skeleton/tests/NAME_tests.py module tests.NAME_tests call None
+nose.importer: DEBUG: Import tests.NAME_tests from /Users/Bazo/Documents/pythonHardWay/skeleton
+nose.importer: DEBUG: Add path /Users/Bazo/Documents/pythonHardWay/skeleton
+nose.importer: DEBUG: find module part tests (tests) in ['/Users/Bazo/Documents/pythonHardWay/skeleton']
+nose.importer: DEBUG: sys.modules has tests as <module 'tests' from '/Users/Bazo/Documents/pythonHardWay/skeleton/tests/__init__.pyc'>
+nose.importer: DEBUG: module already loaded? mod: /Users/Bazo/Documents/pythonHardWay/skeleton/tests new: /Users/Bazo/Documents/pythonHardWay/skeleton/tests
+nose.importer: DEBUG: find module part NAME_tests (tests.NAME_tests) in ['/Users/Bazo/Documents/pythonHardWay/skeleton/tests']
+nose.failure: DEBUG: A failure! <type 'exceptions.ImportError'> No module named NAME ['  File "/usr/local/lib/python2.7/site-packages/nose/loader.py", line 418, in loadTestsFromName\n    addr.filename, addr.module)\n', '  File "/usr/local/lib/python2.7/site-packages/nose/importer.py", line 47, in importFromPath\n    return self.importFromDir(dir_path, fqname)\n', '  File "/usr/local/lib/python2.7/site-packages/nose/importer.py", line 94, in importFromDir\n    mod = load_module(part_fqname, fh, filename, desc)\n', '  File "/Users/Bazo/Documents/pythonHardWay/skeleton/tests/NAME_tests.py", line 2, in <module>\n    import NAME\n']
+nose.suite: DEBUG: Create suite for [<nose.failure.Failure testMethod=runTest>]
+nose.suite: DEBUG: tests [<nose.failure.Failure testMethod=runTest>] context None
+nose.suite: DEBUG: wrap [<nose.failure.Failure testMethod=runTest>]
+nose.suite: DEBUG: wrapping Failure: ImportError (No module named NAME)
+nose.suite: DEBUG: Context suite for [Test(<nose.failure.Failure testMethod=runTest>)] (<class 'nose.failure.Failure'>) (4487551504)
+nose.suite: DEBUG: suite <nose.suite.ContextSuite context=Failure> has context Failure
+nose.suite: DEBUG: get ancestry <class 'nose.failure.Failure'>
+nose.suite: DEBUG:  <class 'nose.failure.Failure'> ancestors ['nose', 'failure']
+nose: DEBUG: __import__ nose.failure
+nose: DEBUG: resolve: ['failure'], nose.failure, <module 'nose' from '/usr/local/lib/python2.7/site-packages/nose/__init__.pyc'>, <module 'nose' from '/usr/local/lib/python2.7/site-packages/nose/__init__.pyc'>
+nose.suite: DEBUG: suite <nose.suite.ContextSuite context=Failure> has ancestor nose.failure
+nose.suite: DEBUG:  <class 'nose.failure.Failure'> ancestors ['nose']
+nose: DEBUG: __import__ nose
+nose: DEBUG: resolve: [], nose, <module 'nose' from '/usr/local/lib/python2.7/site-packages/nose/__init__.pyc'>, <module 'nose' from '/usr/local/lib/python2.7/site-packages/nose/__init__.pyc'>
+nose.suite: DEBUG: suite <nose.suite.ContextSuite context=Failure> has ancestor nose
+nose.selector: DEBUG: wantFile /Users/Bazo/Documents/pythonHardWay/skeleton/tests/NAME_tests.pyc? False
+nose.suite: DEBUG: Create suite for <nose.suite.ContextList object at 0x10b796810>
+nose.suite: DEBUG: tests <nose.suite.ContextList object at 0x10b796810> context <module 'tests' from '/Users/Bazo/Documents/pythonHardWay/skeleton/tests/__init__.pyc'>
+nose.suite: DEBUG: Context suite for <nose.suite.ContextList object at 0x10b796810> (<module 'tests' from '/Users/Bazo/Documents/pythonHardWay/skeleton/tests/__init__.pyc'>) (4487598352)
+nose.suite: DEBUG: suite <nose.suite.ContextSuite context=tests> has context tests
+nose.suite: DEBUG: get ancestry <module 'tests' from '/Users/Bazo/Documents/pythonHardWay/skeleton/tests/__init__.pyc'>
+nose.suite: DEBUG: suite 4487598352 (<nose.suite.ContextSuite context=tests>) run called, tests: <generator object _get_wrapped_tests at 0x10b79a230>
+nose.suite: DEBUG: suite 4487598352 setUp called, tests: <generator object _get_wrapped_tests at 0x10b79a230>
+nose.suite: DEBUG: tests in 4487598352?
+nose.suite: DEBUG: ancestor <module 'tests' from '/Users/Bazo/Documents/pythonHardWay/skeleton/tests/__init__.pyc'> may need setup
+nose.suite: DEBUG: ancestor <module 'tests' from '/Users/Bazo/Documents/pythonHardWay/skeleton/tests/__init__.pyc'> does need setup
+nose.suite: DEBUG: <nose.suite.ContextSuite context=tests> setup context <module 'tests' from '/Users/Bazo/Documents/pythonHardWay/skeleton/tests/__init__.pyc'>
+nose.suite: DEBUG: completed suite setup
+nose.suite: DEBUG: precache is [<nose.suite.ContextSuite context=Failure>]
+nose.suite: DEBUG: suite 4487551504 (<nose.suite.ContextSuite context=Failure>) run called, tests: <generator object _get_wrapped_tests at 0x10b7b3640>
+nose.suite: DEBUG: suite 4487551504 setUp called, tests: <generator object _get_wrapped_tests at 0x10b7b3640>
+nose.suite: DEBUG: tests in 4487551504?
+nose.suite: DEBUG: ancestor <module 'nose' from '/usr/local/lib/python2.7/site-packages/nose/__init__.pyc'> may need setup
+nose.suite: DEBUG: ancestor <module 'nose' from '/usr/local/lib/python2.7/site-packages/nose/__init__.pyc'> does need setup
+nose.suite: DEBUG: <nose.suite.ContextSuite context=Failure> setup context <module 'nose' from '/usr/local/lib/python2.7/site-packages/nose/__init__.pyc'>
+nose.suite: DEBUG: ancestor <module 'nose.failure' from '/usr/local/lib/python2.7/site-packages/nose/failure.pyc'> may need setup
+nose.suite: DEBUG: ancestor <module 'nose.failure' from '/usr/local/lib/python2.7/site-packages/nose/failure.pyc'> does need setup
+nose.suite: DEBUG: <nose.suite.ContextSuite context=Failure> setup context <module 'nose.failure' from '/usr/local/lib/python2.7/site-packages/nose/failure.pyc'>
+nose.suite: DEBUG: ancestor <class 'nose.failure.Failure'> may need setup
+nose.suite: DEBUG: ancestor <class 'nose.failure.Failure'> does need setup
+nose.suite: DEBUG: <nose.suite.ContextSuite context=Failure> setup context <class 'nose.failure.Failure'>
+nose: DEBUG: call fixture <class 'nose.failure.Failure'>.setUpClass
+nose.suite: DEBUG: completed suite setup
+nose.suite: DEBUG: precache is [Test(<nose.failure.Failure testMethod=runTest>)]
+nose.suite: DEBUG: context teardown
+nose.suite: DEBUG: ancestor <class 'nose.failure.Failure'> may need teardown
+nose.suite: DEBUG: <nose.suite.ContextSuite context=Failure> setup ancestor <class 'nose.failure.Failure'>
+nose.suite: DEBUG: <nose.suite.ContextSuite context=Failure> teardown context <class 'nose.failure.Failure'>
+nose: DEBUG: call fixture <class 'nose.failure.Failure'>.tearDownClass
+nose.suite: DEBUG: ancestor <module 'nose.failure' from '/usr/local/lib/python2.7/site-packages/nose/failure.pyc'> may need teardown
+nose.suite: DEBUG: <nose.suite.ContextSuite context=Failure> setup ancestor <module 'nose.failure' from '/usr/local/lib/python2.7/site-packages/nose/failure.pyc'>
+nose.suite: DEBUG: <nose.suite.ContextSuite context=Failure> teardown context <module 'nose.failure' from '/usr/local/lib/python2.7/site-packages/nose/failure.pyc'>
+nose.suite: DEBUG: ancestor <module 'nose' from '/usr/local/lib/python2.7/site-packages/nose/__init__.pyc'> may need teardown
+nose.suite: DEBUG: <nose.suite.ContextSuite context=Failure> setup ancestor <module 'nose' from '/usr/local/lib/python2.7/site-packages/nose/__init__.pyc'>
+nose.suite: DEBUG: <nose.suite.ContextSuite context=Failure> teardown context <module 'nose' from '/usr/local/lib/python2.7/site-packages/nose/__init__.pyc'>
+nose.suite: DEBUG: ancestor <class 'nose.failure.Failure'> may need teardown
+nose.suite: DEBUG: ancestor <class 'nose.failure.Failure'> already torn down
+nose.suite: DEBUG: context teardown
+nose.suite: DEBUG: ancestor <module 'tests' from '/Users/Bazo/Documents/pythonHardWay/skeleton/tests/__init__.pyc'> may need teardown
+nose.suite: DEBUG: <nose.suite.ContextSuite context=tests> setup ancestor <module 'tests' from '/Users/Bazo/Documents/pythonHardWay/skeleton/tests/__init__.pyc'>
+nose.suite: DEBUG: <nose.suite.ContextSuite context=tests> teardown context <module 'tests' from '/Users/Bazo/Documents/pythonHardWay/skeleton/tests/__init__.pyc'>
+nose.suite: DEBUG: ancestor <module 'tests' from '/Users/Bazo/Documents/pythonHardWay/skeleton/tests/__init__.pyc'> may need teardown
+nose.suite: DEBUG: ancestor <module 'tests' from '/Users/Bazo/Documents/pythonHardWay/skeleton/tests/__init__.pyc'> already torn down
+nose.suite: DEBUG: context teardown
+nose.suite: DEBUG: No reason to teardown (was_setup? False was_torndown? False)
