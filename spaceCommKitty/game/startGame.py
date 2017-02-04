@@ -46,7 +46,7 @@ class KitterSat(object):
             print "horrible stench. You keep shooting, and pieces of the"
             print "alien are flying off! But it's still coming for you!"
             print "you're feeling mists of alien blood as the alien is inches"
-            print "away"
+            print "away!!"
             print "Do you run, throw katnade in its mouth, or try to blast its eyes?"
             action2 = raw_input(">> ")
             if(action2 == "run"):
@@ -73,6 +73,12 @@ class KitterSat(object):
             print "and seems to be ball shaped with a mouth and eyes on its front and tentacles coming from its"
             print "back. You get back on KittySpaceOne and call the Federation to send a crew to clean this up."
             return "KittySpaceOne"
+        if(action == "try to communicate with it"):
+            print "You ask it what it's doing here in several languages. It responds when you try asking in"
+            print "Cebellum. It's a strange ancient language. It's voice is gargley and low, and you can barely"
+            print "understand at first ... 'You you are Space Commander Kitty aren\'t you? I\'ve waited for this"
+            print "moment for a long time!!!' It leaps on you and you die"
+            return "Death"
 
 
 class KittySpaceOne(object):
