@@ -4,7 +4,7 @@ from random import randint
 class Scene(object):
 
     def enter(self):
-        print "This scene is not yet configured. Subclass it and implement enter()."
+        # print "This scene is not yet configured. Subclass it and implement enter()."
         exit(1)
 
 class Engine(object):
@@ -14,12 +14,12 @@ class Engine(object):
 
     def play(self):
         current_scene = self.scene_map.opening_scene()
-        print "current_scene is: ", current_scene
+        # print "current_scene is: ", current_scene
         deader = Death()
 
         while True:
-            print "\n---------"
-            print "current_scene is: ", current_scene
+            # print "\n---------"
+            # print "current_scene is: ", current_scene
             next_scene_name = current_scene.enter()
             current_scene = self.scene_map.next_scene(next_scene_name)
 
